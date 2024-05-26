@@ -1,0 +1,171 @@
+.nav-tabs-custom {
+    display: flex;
+}
+
+.nav-tabs-custom .nav-item {
+    flex: 1;
+}
+
+.nav-tabs-custom .nav-link {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #000;
+    background-color: #f8f9fa;
+    margin-right: 2px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    text-align: center;
+}
+
+.nav-tabs-custom .nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.tab-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.tab-item img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 10px;
+}
+
+.card {
+    height: 100%;
+    border-radius: 0%;
+}
+
+.card-img-top {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card-body {
+    height: 100%;
+}
+
+.card-title,
+.card-link {
+    font-size: small;
+}
+
+.card-link-div {
+    text-align: left;
+}
+
+.card-title-1,
+.card-text {
+    font-size: x-small;
+}
+
+a {
+    text-decoration: none;
+}
+
+.spinner-border {
+    height: 100px;
+    width: 100px;
+}
+
+.search-btn {
+    border-radius: 5px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container form>div {
+    margin-bottom: 10px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+.form-container p {
+    color: red;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.form-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.back-button {
+    margin-top: 20px;
+}
+.Toastify__close-button{
+    display: none;
+}

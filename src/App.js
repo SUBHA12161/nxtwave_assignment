@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/NavBar';
+import Tabs from './components/Tabs';
+import AddResource from './components/AddResource';
 
 function App() {
+  const [showAddResource, setShowAddResource] = useState(false);
+  const [lastActiveTab, setLastActiveTab] = useState(null);
+
+  const handleAddItemClick = (lastActiveTab) => {
+    setShowAddResource(true);
+    setLastActiveTab(lastActiveTab);
+  };
+
+  const goBackToPreviousTab = () => {
+    setShowAddResource(false);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar onAddItemClick={handleAddItemClick} />
+      <div className="container">
+        <div className="row justify-content-center">
+          {showAddResource ?
+            <AddResource lastActiveTab={lastActiveTab} goBackToPreviousTab={goBackToPreviousTab} />
+            :
+            <div className="col-md-8"><Tabs /></div>}
+        </div>
+      </div>
     </div>
   );
 }

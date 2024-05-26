@@ -1,0 +1,26 @@
+/* src/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo .logo-img {
+    height: 40px;
+}
+
+.navbar-logo,
+.navbar-buttons {
+    padding: 10px;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-profile-icon .profile-img {
+    height: 40px;
+    border-radius: 50%;
+}
