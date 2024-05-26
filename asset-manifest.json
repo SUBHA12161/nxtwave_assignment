@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/nxtwave_assignment/static/css/main.67e33ac9.css",
+    "main.js": "/nxtwave_assignment/static/js/main.441f226d.js",
+    "static/js/453.e11133b4.chunk.js": "/nxtwave_assignment/static/js/453.e11133b4.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/nxtwave_assignment/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/nxtwave_assignment/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/nxtwave_assignment/index.html",
+    "main.67e33ac9.css.map": "/nxtwave_assignment/static/css/main.67e33ac9.css.map",
+    "main.441f226d.js.map": "/nxtwave_assignment/static/js/main.441f226d.js.map",
+    "453.e11133b4.chunk.js.map": "/nxtwave_assignment/static/js/453.e11133b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67e33ac9.css",
+    "static/js/main.441f226d.js"
+  ]
+}
